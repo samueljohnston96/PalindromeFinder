@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>534</width>
-    <height>412</height>
+    <width>530</width>
+    <height>410</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -19,11 +19,18 @@
      <rect>
       <x>0</x>
       <y>0</y>
-      <width>541</width>
-      <height>76</height>
+      <width>531</width>
+      <height>117</height>
      </rect>
     </property>
     <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="3">
+      <widget class="QTextEdit" name="secondNumber">
+       <property name="placeholderText">
+        <string>Second Number</string>
+       </property>
+      </widget>
+     </item>
      <item row="0" column="1">
       <widget class="QTextEdit" name="firstNumber">
        <property name="placeholderText">
@@ -31,35 +38,22 @@
        </property>
       </widget>
      </item>
-     <item row="0" column="2">
-      <widget class="QTextEdit" name="secondNumber">
-       <property name="placeholderText">
-        <string>Second Number</string>
+     <item row="1" column="1" colspan="3">
+      <widget class="QPushButton" name="searchButton">
+       <property name="text">
+        <string>Search For Largest Palindrome</string>
        </property>
       </widget>
      </item>
     </layout>
    </widget>
-   <widget class="QPushButton" name="searchButton">
-    <property name="geometry">
-     <rect>
-      <x>0</x>
-      <y>50</y>
-      <width>541</width>
-      <height>32</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Search For Largest Palindrome</string>
-    </property>
-   </widget>
    <widget class="QTextBrowser" name="resultsBox">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>90</y>
-      <width>521</width>
-      <height>321</height>
+      <x>0</x>
+      <y>120</y>
+      <width>531</width>
+      <height>291</height>
      </rect>
     </property>
     <property name="sizePolicy">
