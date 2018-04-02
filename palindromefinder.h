@@ -7,6 +7,7 @@
 #include <QIntValidator>
 #include <QGridLayout>
 #include <QObject>
+#include <cmath>
 
 namespace Ui {
 class PalindromeFinder;
